@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maa Tara Engineering Works</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" href="./Assets/Untitled.svg">
+  <link rel="icon" href="./Assets/logo.svg">
   <link rel="stylesheet" href="./Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,16 +17,19 @@
 
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+  
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="./Assets/Untitled.svg" class="me-2" height="32" width="32">
-        Maa Tara Engineering
-        <div class="content">
-          <p><i class="fa fa-map-marker me-1"></i> <span class="pe-2">Howrah , West Bengal</span> <span
-              class="pe-2">|</span> <i class="fa fa-check-square-o me-1"></i> <span>GST <b>19ANRPP6246P1ZU</b></span>
-          </p>
+        <img src="./Assets/logo-white.svg" class="me-2">
+        <div class="nav-content">
+          <span>Maa Tara Engineering</span>
+          <div class="content">
+            <p><i class="fa fa-map-marker me-1"></i> <span class="pe-2">Howrah , West Bengal</span> <span
+                class="pe-2">|</span> <i class="fa fa-check-square-o me-1"></i> <span>GST <i>19ANRPP6246P1ZU</i></span>
+            </p>
+          </div>
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,8 +37,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="main-nav">
-          <div class="navbar-details ms-auto">
+        <div class="main-nav ms-auto">
+          <div class="navbar-details">
             <a class="num-a nav-top"><i class="fa fa-phone me-2"></i> +91 9831230285 / +91 9830627551</a>
             <a class="mail-nav nav-top"><i class="fa fa-envelope me-2"
                 href=" mailTo: maataraengineering2011@gmail.com"></i>
@@ -43,7 +46,7 @@
           </div>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Us</a>
@@ -60,130 +63,136 @@
     </div>
   </nav>
 
+  <section id="mainSec" >
+    
+    <section id="home-sec">
+      <div class="container hero-carousel" id="home">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="SlickCaro">
 
-  <div class="container hero-carousel" id="home">
-    <div class="row">
-      <div class="col-md-12">
-        <div id="SlickCaro">
+              <div class="card item-1">
+                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (1).jpeg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
 
-          <div class="card item-1">
-            <img src="./Assets/jpg/download.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <div class="card item-2">
+                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (2).jpeg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+
+              <div class="card item-3">
+                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (3).jpeg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+
+              <div class="card item-4">
+                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM.jpeg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
+
+              <div class="card item-5">
+                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.05 AM (1).jpeg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="card item-2">
-            <img src="./Assets/jpg/2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
+
+    <div class="container" id="about">
+      <h1 class="all-head">About Us</h1>
+      <p class="about-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam excepturi fuga mollitia odit
+        eos. Fuga praesentium quo dolore, accusantium vero nihil eligendi suscipit autem quam quia culpa molestias ad
+        temporibus?
+        Quisquam placeat dolorum temporibus sapiente quod voluptate provident dolor. Minima maxime dolores nemo
+        inventore
+        ut nulla dolorum adipisci natus doloremque ipsa optio sit, libero fugit id incidunt alias? Molestias, delectus.
+      </p>
+      <div class="about-icons">
+        <div class="icon-box">
+          <div class="circle">
+            <i class="fa fa-handshake-o fa-lg"></i>
           </div>
-
-          <div class="card item-3">
-            <img src="./Assets/jpg/download.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
+          <div class="content">
+            <h4>Nature of Business</h4>
+            <h5>Manufacturer</h5>
           </div>
-
-          <div class="card item-4">
-            <img src="./Assets/jpg/2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
+        </div>
+        <div class="icon-box">
+          <div class="circle">
+            <i class="fa fa-suitcase fa-lg"></i>
           </div>
-
-          <div class="card item-5">
-            <img src="./Assets/jpg/2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-            </div>
+          <div class="content">
+            <h4>Legal Status of Firm</h4>
+            <h5>Individual - Proprietor</h5>
+          </div>
+        </div>
+        <div class="icon-box">
+          <div class="circle">
+            <img src="./Assets/jpg/gstIcon.png" width="45" class="pt-2">
+          </div>
+          <div class="content">
+            <h4>GST Number</h4>
+            <h5>19ANRPP6246P1ZU</h5>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <div class="container" id="about">
-    <h1 class="all-head">About Us</h1>
-    <p class="about-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam excepturi fuga mollitia odit
-      eos. Fuga praesentium quo dolore, accusantium vero nihil eligendi suscipit autem quam quia culpa molestias ad
-      temporibus?
-      Quisquam placeat dolorum temporibus sapiente quod voluptate provident dolor. Minima maxime dolores nemo inventore
-      ut nulla dolorum adipisci natus doloremque ipsa optio sit, libero fugit id incidunt alias? Molestias, delectus.
-    </p>
-    <div class="about-icons">
-      <div class="icon-box">
-        <div class="circle">
-          <i class="fa fa-handshake-o fa-lg"></i>
-        </div>
-        <div class="content">
-          <h4>Nature of Business</h4>
-          <h5>Manufacturer</h5>
-        </div>
-      </div>
-      <div class="icon-box">
-        <div class="circle">
-          <i class="fa fa-suitcase fa-lg"></i>
-        </div>
-        <div class="content">
-          <h4>Legal Status of Firm</h4>
-          <h5>Individual - Proprietor</h5>
-        </div>
-      </div>
-      <div class="icon-box">
-        <div class="circle">
-          <img src="./Assets/jpg/gstIcon.png" width="45">
-        </div>
-        <div class="content">
-          <h4>GST Number</h4>
-          <h5>19ANRPP6246P1ZU</h5>
+    <div class="container" id="product">
+      <h1 class="all-head">Product & Services</h1>
+      <div class="product-details">
+        <div class="card mb-3">
+          <div class="img-fluid">
+            <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.02 AM.jpeg">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Product Name</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <button class="btn btn-primary card-btn">Interested?</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
+    <div class="container-fluid" id="customer">
+      <h1 class="head-hr">Our Valuable Customers</h1>
 
-  <div class="container" id="product">
-    <h1 class="all-head">Product & Services</h1>
-    <div class="product-details">
-      <div class="card mb-3">
-        <img src="./Assets/jpg/2.jpg" class="img-fluid">
-        <div class="card-body">
-          <h5 class="card-title">Product Name</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-            content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <button class="btn btn-primary w-100">Interested?</button>
+      <div id="customer-list">
+        <div class="card">
+          <img src="./Assets/jpg/customer5.jpeg">
+          <h6>Tata Bearings</h6>
+        </div>
+        <div class="card">
+          <img src="./Assets/jpg/customer6" width="100">
+          <h6>Maithon Power</h6>
+        </div>
+        <div class="card">
+          <img src="./Assets/jpg/customer5.jpeg">
+          <h6>Tata Bearings</h6>
+        </div>
+        <div class="card">
+          <img src="./Assets/jpg/customer6" width="100">
+          <h6>Maithon Power</h6>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid" id="customer">
-    <h1 class="all-head">Our Valuable Customers</h1>
-
-    <div class="d-flex">
-      <div class="card">
-        <img src="./Assets/jpg/customer5.jpeg">
-        <h6>Tata Bearings</h6>
-      </div>
-      <div class="card">
-        <img src="./Assets/jpg/customer6" width="100">
-        <h6>Maithon Power</h6>
-      </div>
-      <div class="card">
-        <img src="./Assets/jpg/customer5.jpeg">
-        <h6>Tata Bearings</h6>
-      </div>
-      <div class="card">
-        <img src="./Assets/jpg/customer6" width="100">
-        <h6>Maithon Power</h6>
-      </div>
-    </div>
-  </div>
+  </section>
 
   <div class="container-fluid footer bg-gray">
     <h1>We Are Here To Help You</h1>
@@ -204,7 +213,7 @@
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 1,
-        // autoplay: true,
+        autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
           {
@@ -217,7 +226,7 @@
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 700,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2
