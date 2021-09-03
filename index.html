@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maa Tara Engineering Works</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./Assets/logo.svg">
   <link rel="stylesheet" href="./Assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href="./css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
@@ -17,8 +17,8 @@
 
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
-  
+<body>
+
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -46,7 +46,7 @@
           </div>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About Us</a>
@@ -63,8 +63,8 @@
     </div>
   </nav>
 
-  <section id="mainSec" >
-    
+  <section id="mainSec">
+
     <section id="home-sec">
       <div class="container hero-carousel" id="home">
         <div class="row">
@@ -72,35 +72,35 @@
             <div id="SlickCaro">
 
               <div class="card item-1">
-                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (1).jpeg" class="card-img-top">
+                <img src="./Assets/jpg/Products/Product-Img (7).jpeg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                 </div>
               </div>
 
               <div class="card item-2">
-                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (2).jpeg" class="card-img-top">
+                <img src="./Assets/jpg/Products/Product-Img (8).jpeg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                 </div>
               </div>
 
               <div class="card item-3">
-                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM (3).jpeg" class="card-img-top">
+                <img src="./Assets/jpg/Products/Product-Img (9).jpeg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                 </div>
               </div>
 
               <div class="card item-4">
-                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.03 AM.jpeg" class="card-img-top">
+                <img src="./Assets/jpg/Products/Product-Img (10).jpeg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                 </div>
               </div>
 
               <div class="card item-5">
-                <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.05 AM (1).jpeg" class="card-img-top">
+                <img src="./Assets/jpg/Products/Product-Img (12).jpeg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                 </div>
@@ -153,56 +153,120 @@
     </div>
 
 
+
     <div class="container" id="product">
       <h1 class="all-head">Product & Services</h1>
       <div class="product-details">
-        <div class="card mb-3">
+        <div class="card card-simple mb-3">
           <div class="img-fluid">
-            <img src="./Assets/jpg/WhatsApp Unknown 2021-08-31 at 10.53.03 AM/WhatsApp Image 2021-09-01 at 7.11.02 AM.jpeg">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Assets/jpg/Products/Product-Img (1).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (2).jpeg">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/jpg/Products/Product-Img (3).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (4).jpeg">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/jpg/Products/Product-Img (5).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (6).jpeg">
+                </div>
+              </div>
+            </div>
           </div>
           <div class="card-body">
             <h5 class="card-title">Product Name</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
-            <button class="btn btn-primary card-btn">Interested?</button>
+            <a class="card-btn btn">Interested ? <i class="fa fa-angle-double-right ms-2"></i></a>
           </div>
         </div>
+
+        <div class="card card-reverse mb-3">
+          <div class="img-fluid">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Assets/jpg/Products/Product-Img (7).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (8).jpeg">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/jpg/Products/Product-Img (9).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (10).jpeg">
+                </div>
+                <div class="carousel-item">
+                  <img src="./Assets/jpg/Products/Product-Img (11).jpeg"
+                    alt="./Assets/jpg/Products/Product-Img (12).jpeg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Product Name</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <a class="card-btn btn">Interested ? <i class="fa fa-angle-double-right ms-2"></i></a>
+          </div>
+        </div>
+
       </div>
+    </div>
     </div>
 
     <div class="container-fluid" id="customer">
-      <h1 class="head-hr">Our Valuable Customers</h1>
+      <h1 class="all-head">Our Valuable Customers</h1>
 
       <div id="customer-list">
-        <div class="card">
-          <img src="./Assets/jpg/customer5.jpeg">
-          <h6>Tata Bearings</h6>
+        <div class="card-content">
+          <div class="card">
+            <img src="./Assets/jpg/customer5.jpeg">
+            <h6>Tata Bearings</h6>
+          </div>
+          <div class="card">
+            <img src="./Assets/jpg/customer6">
+            <h6>Maithon Power</h6>
+          </div>
         </div>
-        <div class="card">
-          <img src="./Assets/jpg/customer6" width="100">
-          <h6>Maithon Power</h6>
-        </div>
-        <div class="card">
-          <img src="./Assets/jpg/customer5.jpeg">
-          <h6>Tata Bearings</h6>
-        </div>
-        <div class="card">
-          <img src="./Assets/jpg/customer6" width="100">
-          <h6>Maithon Power</h6>
+        <div class="card-content">
+          <div class="card">
+            <img src="./Assets/jpg/customer5.jpeg">
+            <h6>Tata Bearings</h6>
+          </div>
+          <div class="card">
+            <img src="./Assets/jpg/customer6">
+            <h6>Maithon Power</h6>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="container-fluid footer bg-gray">
-    <h1>We Are Here To Help You</h1>
+  <div class="container-fluid footer">
+    <h1><i class="fa fa-github me-2 fa-2x"></i> <span>Souvik-Bhattacharyya</span></h1>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  <script src="./js/bootstrap.min.js"
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -214,7 +278,7 @@
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay: true,
+        // autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
           {
@@ -223,7 +287,7 @@
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
-              
+
             }
           },
           {
